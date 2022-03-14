@@ -1,0 +1,158 @@
+
+.header a, a:hover{
+    color: #f0ad4d;
+    text-decoration: none;
+}
+
+.header h1 {
+    letter-spacing: 2px;
+    font-size: 350%;
+}
+
+.header p {
+    color: white !important;
+    font-size: 150%;
+    letter-spacing: 3px;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #346270;
+}
+
+.nav-pills>li>a {
+    color: #fff;
+}
+
+.nav-pills>li>a:hover {
+    background-color: #346270;
+}
+
+.navbar-inverse {
+    background-color: black;
+    opacity: 0.7;
+    border-color: #080808;
+    padding: 1%;
+}
+
+@media (max-width: 767px) {
+    .nav-pills>li {
+        float: none;
+    }
+
+    .nav-pills {
+    text-align: center;
+    }
+
+    .header h1 {
+    font-size: 160%;
+    letter-spacing: 1px;
+    }
+
+    .header p {
+    font-size: 100%;
+    letter-spacing: 2px;
+}
+    
+    .header {
+    text-align: center;
+    }
+}
+
+.clear {
+  clear: both;
+    height: 63px;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+html, body {
+    height: 100%;
+}
+
+.film_block {
+
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+   
+}
+
+.film_block img {
+   margin-bottom: 5%;
+    border-radius: 5px;
+    border: solid 2px #dad7d5;
+    width: 100%;
+   
+}
+
+.film_label {
+    padding: 2px;
+    margin-bottom: 10%;
+}
+
+.margin-8 {
+    margin-top: 8%;
+}
+
+.panel-body {
+    background-color: rgba(208, 150, 228, 1);
+}  
+.panel-danger>.panel-heading {
+    background-color: rgba(87, 29, 107, 1);
+    color: white;
+    border-color: rgba(208, 150, 228, 1);
+    
+}
+h4 {
+    font: normal 140% 'century gothic', arial;
+    margin: 2px 2px 2px 2px;
+    padding: 5px 5px 5px 5px;
+    color: #000;
+}
+.menubar {
+		background-color:white;
+		
+    border: 2px solid blue;
+	}
+
+
+ul.menu li {
+		margin: 10px 1px 0px 1px;
+    list-style: none;
+	}
+
+ul.menu li a {
+		font: normal 120% 'trebuchet ms', sans-serif;
+		height: 25px;
+		padding: 5px 5px 5px 1px;
+		color: red;
+	}
+ul.menu li.selected a {
+    color: burlywood;
+}
+
+    .table tbody>tr>td.vert-align {
+      vertical-align: middle;
+    }
+
+footer {
+    color: #fff;
+    background: black;
+    opacity: 0.5;
+    padding: 17px 0 18px 0;
+    border-top: 1px solid #000;
+}
+
+footer a {
+    color: #999;
+}
+
+footer a:hover {
+    color: #efefef;
+}
+
+
+
+
